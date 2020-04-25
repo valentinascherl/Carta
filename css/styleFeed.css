@@ -1,0 +1,16 @@
+body{
+    border-left: 2px solid orange;
+    padding-left: 20px;
+    border-right: 2px solid orange;
+}
+.resetear{
+      color:orange;
+      width: 500px;
+      border-radius: 12px;
+}
+.enviar{
+    background-color: orange;
+    color: white;
+    width: 500px;
+    border-radius: 12px;
+}

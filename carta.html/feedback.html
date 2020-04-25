@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Comentarios</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/styleFeed.css">
+    </head>
+    <body>
+        <form action="" method="POST">
+        <h3><label for="">¿De dónde sos?</label></h3>
+        <select name="continente" id="">
+            <option value="America">America</option>
+            <option value="Europa">Europa</option>
+            <option value="Africa">Africa</option>
+            <option value="Asia">Asia</option>
+            <option value="Oceania">Oceania</option>
+
+        </select>
+        <h3><label for="">¿Qué te pareció la iluminación?</label></h3>
+        <input type="checkbox" name="" value="MA">Muy acorde <br>
+        <input type="checkbox" name="" value="B">Buena, pero podria mejorar <br>
+        <input type="checkbox" name="" value="M">Mala
+        <h3><label for="">¿Qué tipo de plato fue el que más te gustó?</label></h3>
+        <input type="checkbox" name="" value="E">Entrada <br>
+        <input type="checkbox" name="" value="PP">Platos Principales <br>
+        <input type="checkbox" name="" value="P">Postres <br>
+        <input type="checkbox" name="" value="O">Otros
+        <h3><label for="">¿Recomendarías el lugar?</label></h3>
+        <input type="radio" name="lugar" value="S">Si
+        <input type="radio" name="lugar" value="N">No
+        <h3><label for="">¿Porqué?</label></h3>
+        <textarea name="comentario" id="" cols="30" rows="10"></textarea>
+        <h3>Dejanos tus datos y nos pondremos en contacto</h3>
+        <p><label for="nombre">Nombre</label></p>
+        <p><input type="text" id="nombre" name="nombre" required></p>
+        <p><label for="email">Email</label></p>
+        <p><input type="email" id="email" name="email" required></p>
+        <input type="submit" value="Enviar" class="enviar">
+        <input type="submit" value="Resetear" class="resetear">
+        </form>
+
+    </body>
+</html>
